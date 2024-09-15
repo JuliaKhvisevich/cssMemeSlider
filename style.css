@@ -14,7 +14,7 @@ body {
     position: relative;
     width: 80%; 
     max-width: 1024px;
-    margin: 0.1rem auto; 
+    margin: 2rem auto; 
     overflow: hidden;
 }
 
@@ -98,13 +98,14 @@ input[type="radio"] {
     }
 
     .text {
-        font-size: 1rem;
-        text-align: center; 
+        
+        /* text-align: center;  */
     }
 
     .content {
-        flex-direction: column; 
+        flex-direction: column-reverse;; 
         align-items: center; 
+        font-size: 1rem;
     }
 
     .navigation {

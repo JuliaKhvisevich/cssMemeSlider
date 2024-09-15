@@ -34,7 +34,7 @@ body {
 
 .slide img {
     width: 100%; 
-    height: auto;
+    height: 100%;
     border-radius: 3%;
 }
 
@@ -95,11 +95,12 @@ input[type="radio"] {
 @media (max-width: 480px) {
     .slider {
         width: 95%; 
+        margin: 1rem auto;
     }
 
     .text {
-        
-        /* text-align: center;  */
+        margin-top: 1rem;
+       
     }
 
     .content {
@@ -109,7 +110,12 @@ input[type="radio"] {
     }
 
     .navigation {
-        margin-top: 1rem; 
+        margin-bottom: 1rem;
         justify-content: center; 
+    }
+
+    .nav-label {
+        
+        padding: 0.25rem;
     }
 }
